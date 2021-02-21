@@ -6,7 +6,7 @@
 //  Copyright © 2018 Touchlane LLC. All rights reserved.
 //
 
-public class CampcotCollectionView: UICollectionView {
+public class CampcotCollectionView: DynamicHeightCollectionView {
     private var expandedLayout: ExpandedLayout!
     private var collapsedLayout: CollapsedLayout!
 
