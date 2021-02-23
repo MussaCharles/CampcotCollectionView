@@ -1,5 +1,5 @@
 //
-//  DynamicHeightCollectionView.swift
+//  MCDynamicHeightCollectionView.swift
 //  CampcotCollectionView
 //
 //  Created by Mussa Charles on 2021/02/21.
@@ -17,7 +17,7 @@ import Foundation
 
 /// Goal is to make use of the existing library but for a very special use case. I needed the headers feature but fixed height collection view which resizes itself based on the size of it's contents.
 /// This collection view will invalidate the intrinsicContentSize and will use the actual contentSize of collectionView. Works perfectly even for custom layouts.
- public class DynamicHeightCollectionView:UICollectionView {
+ public class MCDynamicHeightCollectionView:UICollectionView {
     
     override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         super.init(frame: frame,collectionViewLayout: layout)
